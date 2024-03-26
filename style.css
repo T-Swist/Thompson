@@ -10,7 +10,7 @@
 
 body{
     font-family: 'poppins', sans-serif;
-    background-image: url("./images/bless.jpg");
+    background-image: url("./bless.jpg");
     background-size: cover;
     background-position: center center;
     min-height: 100vh;
