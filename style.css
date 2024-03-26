@@ -1,0 +1,58 @@
+@import url('https://fonts.gooleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'poppins', sans-serif;
+    background-image: url("./images/bless.jpg");
+    background-size: cover;
+    background-position: center center;
+    min-height: 100vh;
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+  color: #ffffff;
+  font-size: 3rem;
+  margin-top: -5rem;
+  font-weight: 600;
+}
+
+.countdown-container{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.label{
+  font-weight: 600;
+  font-size: 5rem;
+  line-height: 1;
+  color: blanchedalmond;
+  margin: 1rem 2rem;
+}
+
+.countdonw-el{
+  text-align: center;
+}
+
+.countdonw-el span{
+  color: blanchedalmond;
+  font-size: 1.3rem;
+}
+
+span{
+  color: #ffff00;
+}
+

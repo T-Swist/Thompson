@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>T-$wist Countdown Timer Practice Work</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="bless-hero"> 
+    <h1>Mi Bless <span class="auto-type"></span></h1>
+  </header>
+ 
+
+  <section class="countdown-container">
+    
+    <div class="countdonw-el days-c">
+      <p class="label" id="days">0</p>
+      <span>days</span>
+    </div>
+
+    <div class="countdonw-el hours-c">
+      <p class="label" id="hours">0</p>
+      <span>hours</span>
+    </div>
+
+    <div class="countdonw-el minutes-c">
+      <p class="label" id="minutes">0</p>
+      <span>minutes</span>
+    </div>
+
+    <div class="countdonw-el seconds-c">
+     <p class="label" id="seconds">0</p>
+     <span>seconds</span>
+    </div>
+    
+  </section>
+
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <script>
+
+    var typed = new Typed(".auto-type", {
+      strings: ["Next Brithday", "Happy Pre Birthday"],
+      typeSpeed: 150,
+      backSpeed: 150,
+      loop: true,
+    })
+
+  </script>
+</body>
+</html>
