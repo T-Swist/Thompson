@@ -26,6 +26,7 @@ h1{
   font-size: 3rem;
   margin-top: -5rem;
   font-weight: 600;
+  text-align: center;
 }
 
 .countdown-container{
@@ -55,4 +56,28 @@ h1{
 span{
   color: #ffff00;
 }
+@media (max-width: 320px){
 
+  body{
+    gap: 1rem;
+}
+
+h1{
+  font-size: 3rem;
+  margin-top: -3rem;
+}
+
+.label{
+  font-size: 3rem;
+}
+
+.countdonw-el{
+  text-align: center;
+}
+
+.countdonw-el span{
+  font-size: 1rem;
+}
+
+
+}
